@@ -1,0 +1,85 @@
+/*CSS Reset*/
+body, div, h1, a, p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+/*Navigation Bar coloring, format, and float*/
+.nav {
+    background-color: #daa520;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.nav h1, a {
+    margin: 15px 15px;
+}
+
+#Title h1 {
+    color: #ffffff;
+    float: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+    padding-left: 50px;
+}
+
+#anchors {
+    padding: 0px 40px 0px 0px;
+}
+#anchors a {
+    color: #ffffff;
+    float: right;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*Box Container*/
+.Container {
+    width: 280px;
+    height: 540px;
+    border: 2px solid #daa520;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#pushDiv {
+    margin: 50px 0px 0px 360px;
+    width:fit-content;
+}
+
+.header h1 {
+    font-size: x-large;
+    padding: 10px 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.GenInfo p {
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.moreInfo {
+    text-align: center;
+    padding: 10px 0px;
+}
+.moreInfo input[type="button"] {
+    background-color: #daa520;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    width: 280px;
+    border: 2px solid #daa520;
+    border-radius: 4px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
